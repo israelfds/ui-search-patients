@@ -1,0 +1,47 @@
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que a largura e altura incluam padding e borda */
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Mínimo de 100% da altura da viewport */
+}
+
+.container {
+    text-align: center;
+    max-width: 600px; /* Define uma largura máxima para o conteúdo */
+    width: 90%; /* Largura de 90% da largura do viewport */
+    margin: auto; /* Centraliza o conteúdo na tela */
+}
+
+.title {
+    font-size: 2rem; /* 2 vezes o tamanho padrão do texto */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 1.5rem; /* 1.5 vezes o tamanho padrão do texto */
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
